@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="11.css">
+    <script rel="stylesheet" src="detail.js"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about us.html">About us</a></li>
+          <li><a href="detail.html">Course detail</a></li>
+        </ul>
+      </nav>
+      <img src='2.png' class='writer-img' style="width:50px;height:50px;" >
+    <h4>Thumb</h4>
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="5.png" style="width:100%;">
+      <img class="mySlides" src="6.png" style="width:100%;">
+      <img class="mySlides" src="7.png" style="width:100%;">
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 2000); 
+      }
+      </script>
+  <h1>This is the course details page</h1>
+<hr>
+  <h2>Course details</h2>
+  <p>This course includes listening,speaking,reading and writing about English.The course focuses on English language knowledge,application skills and learning strategies,and integrates a variety of teaching modes and means.The purpose is to cultivate students'comprehensive English application ability.</p>
+<hr>
+<table>
+  <caption>Query table</caption>
+  <tbody>
+  <tr>
+      <th>writing </th>
+      <td>The organization has arranged English writing courses for users. The courses include various writing methods, allowing users to cultivate complete writing ideas and contents, as well as a complete organizational framework</td>
+  </tr>
+  <tr>
+      <th>reading</th>
+      <td>The organization has arranged English reading courses for users, which will teach users the skills of reading English and train users to quickly understand the general content of the article</td>
+  </tr>
+  <tr>
+      <th>listening</th>
+      <td>The organization has arranged listening courses on English for users, from which users can learn various skills conducive to English listening</td>
+  </tr>
+  <tr>
+      <th>speaking</th>
+      <td>The organization has arranged English communication courses for users, which will teach users how to communicate with others in English and use correct grammar</td>
+  </tr>
+  <tr>
+      <th>Appreciation of British and American Literature</th>
+      <td>The organization will teach users to understand the art of British and American literature, and fully understand the author's moral and connotation skills when reading literary works, so as to better understand literary works</td>
+  </tr>
+  <tr>
+      <th>Comprehensive English</th>
+      <td>Teachers of the course will train students' comprehensive English application ability, so that students can communicate with others fluently in English</td>
+  </tr>
+  </tbody>
+  </table>
+  <hr>
+  <table>
+    <caption>Course arrangement</caption>
+    <tbody>
+    <tr>
+        <th>writing </th>
+        <td>Students will be taught to learn various English languages from the 1st to the 10th</td>
+        <td>From the 11th to the 20th, we will explain the excellent points of various excellent compositions to students</td>
+        <td>From the 21st to the 30th, students will accumulate all kinds of good words and sentences, so that students can use them in their own writing</td>
+    </tr>
+    <tr>
+        <th>reading</th>
+        <td>From the 1st to the 10th, I will talk about reading skills</td>
+        <td>From the 11th to the 20th, we will talk about how to quickly understand the center of the article</td>
+        <td>From the 21st to the 30th, students will be asked to read books with their own skills in the library</td>
+    </tr>
+    <tr>
+        <th>listening</th>
+        <td>Students' listening ability will be trained from the 1st to the 10th</td>
+        <td>Students will be asked to do listening exercises from the 11th to the 20th. After that, look at the original text to find the answer</td>
+        <td>From the 21st to the 30th, we will train students' thinking and imagination and let them learn by thinking and imagination</td>
+    </tr>
+    <tr>
+        <th>speaking</th>
+        <td>From the 1st to the 10th, students will be taught English grammar to help them speak English fluently</td>
+        <td>From the 11th to the 20th, students will communicate with each other in English to find their own shortcomings</td>
+        <td>From the 21st to the 30th, let students correct themselves according to their shortcomings and improve the accuracy of communication</td>
+    </tr>
+    <tr>
+        <th>Appreciation of British and American Literature</th>
+        <td>Teach students the skills of reading famous works from the 1st to the 10th</td>
+        <td>Take students to read in the library from the 11th to the 20th and make notes</td>
+        <td>Choose some works from the 21st to the 30th to explain their contents and creative techniques</td>
+    </tr>
+    <tr>
+        <th>Comprehensive English</th>
+        <td>From the 1st to the 10th, we will cultivate students' comprehensive quality and interest in English</td>
+        <td>Students will be taught to use various English grammar and other knowledge points from the 11th to the 20th</td>
+        <td>Students will be trained to master and use grammar from the 21st to the 30th</td>
+    </tr>
+    </tbody>
+    </table>
+    <hr>
+    <h2>Curriculum resources</h2>
+        <a class="footer-link" href="https://zhuanlan.zhihu.com/p/35000738">Comprehensive English</a>
+        <a class="footer-link" href="https://dict.eudic.net/ting">listening</a>
+        <a class="footer-link" href="https://2.meetup.com/">speaking</a>
+        <a class="footer-link" href="http://www.enread.com/">reading</a>
+        <a class="footer-link" href="https://www.duanmeiwen.com/xinde/1088286.html">writing</a>
+    <hr>
+  <form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >
+    First name: <input type="text" name="Firstname">
+    Last Name:<input type="text" name="Lastname">
+    Address:<input type="text" name="Address">
+    telephone:<input type="text" name="telephone"><span id="num1"></span>
+    
+     <input type="submit" value="Submit">
+  </form> 
+  <p>If the input is complete, click Submit.</p>
+</body>
+</html>

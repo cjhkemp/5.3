@@ -1,0 +1,99 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background-color: #fcc;
+    color: #600;
+    padding: 0.5rem;
+    display:block;
+}
+a:hover {
+    background-color: rgb(102, 0, 0);
+    color: rgb(204, 255, 225);
+}
+li{
+    border: 2px;
+    display:inline-block;
+     margin: 0.5rem;
+}
+
+body {
+    background-image: url(https://img2.baidu.com/it/u=1545228605,972343524&fm=253&fmt=auto&app=138&f=JPEG?w=231&h=500);
+}
+h1{
+    color: orangered;
+    text-align: center;
+}
+ 
+thead{
+    background-color:#333;
+    color: white;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 2%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+th,td{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid blue;
+    text-align: center;
+    vertical-align: middle;
+}
+
+thead th{
+    width: 25%;
+}
+
+.cell-highlight{
+    background-color: aqua;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eee;
+}
+
+tbody th {
+    background-color: #36c;
+    color: #fff;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) th {
+    background-color: #25c;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+}
+h2{
+    color:black;
+}
+h3{
+    color: black;
+}
+img {
+    float: left;
+}
+
+.mySlides {
+    display:none;
+}
