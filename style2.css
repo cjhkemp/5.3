@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    background-color: #fcc;
+    color: #600;
+    padding: 0.5rem;
+    display:block;
+}
+a:hover {
+    background-color: rgb(102, 0, 0);
+    color: rgb(204, 255, 225);
+}
+li{
+    border: 2px;
+    display:inline-block;
+     margin: 0.5rem;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+body {
+    background-image: url(https://img2.baidu.com/it/u=1545228605,972343524&fm=253&fmt=auto&app=138&f=JPEG?w=231&h=500);
+}
+h1{
+    color:orangered;
+    text-align: center;
+}
+h2{
+    color:black;
+}
+h4{
+   color: grey; 
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
